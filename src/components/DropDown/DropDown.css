@@ -1,0 +1,82 @@
+.drop-down-container {
+    background-color: white;
+    top: 5.5rem;
+    right: 2rem;
+    z-index: 9;
+    border-radius: 20px;
+    padding-bottom: 2rem;
+    height: 400px;
+}
+
+.option-span.wishlist-span {
+    font-weight: 700;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.option-span {
+    padding: 1rem 11rem 1rem .875rem;
+}
+
+.option-span:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.drop-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+.drop-text{
+    text-align: center;
+    font-size: small;
+    margin-bottom: 6px;
+}
+
+/* .drop-line{
+    width: 200px;
+    margin-left: 2rem;
+    border-bottom: 1px solid lightgray;
+} */
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.signout-button {
+    /* display: inline-block; */
+    padding: 5px;
+    margin: 2.4rem 4.3rem ;
+    width: 100px;
+    background-color: rgb(199, 50, 50);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 24px;
+    font-size: 14px;
+    cursor: pointer;
+} 
+
+.chat-profile {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* margin: 10px; */
+}
+
+.text-chat {
+    /* margin-top: 15px; */
+    cursor: pointer;
+    font-size: 12px;
+    border-top: 1px solid lightgray;
+    margin-bottom: 10px;
+    width: 200px;
+}

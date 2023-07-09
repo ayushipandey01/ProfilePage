@@ -1,0 +1,153 @@
+.parent-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 500px;
+    height: 100vh;
+    /* margin-left: 20px ; */
+    /* padding: 20px; */
+    /* position: relative; */
+}
+
+.container-profile {
+    width: 230px;
+    height: 90vh;
+    /* border: 1px solid black; */
+    margin-left: 40px ;
+    padding: 20px;
+    background-color: #4f46e5;
+    border-radius: 20px;
+}
+
+.profile-picture{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 9rem;
+    color: lightgray;
+}
+
+
+
+.option {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.content-item {
+    display: none;
+}
+
+.details {
+    width: 400px;
+    margin-right: 20px;
+    border-right: 1px solid lightgray;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem ;
+}
+
+h4{
+    text-align: center;
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+.address {
+    width: 600px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: grey;
+}
+
+.name{
+    text-align: center;
+}
+
+.user-details{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.detail-container{
+    border-bottom: 1px solid lightgray;
+    width: 360px;
+    margin-left: 15px;
+}
+
+.address-details{
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: black;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.map-picture{
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.latitude{
+    margin-left: 21rem;
+    margin-right: 10px;
+    color: black;
+}
+
+.longitude{
+    color: black;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    width: 74vw;
+    margin-left: 20rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.profile-text{
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.username{
+    margin-right: 3.5rem;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.pic{
+    margin-top: 2.9rem;
+    padding: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: grey;
+}

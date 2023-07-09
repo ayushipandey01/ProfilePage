@@ -1,0 +1,131 @@
+.chat-icon {
+    position: fixed;
+    bottom: 0px;
+    right: 70px;
+    width: 250px;
+    height: 35px;
+    background-color: blueviolet;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.chat-box {
+    position: fixed;
+    bottom: 0px;
+    right: 50px;
+    /* width: 300px; */
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+    overflow-x:none;
+    overflow-y:none;
+    max-width: 450px;
+}
+
+.chat-box.open {
+    display: block;
+}
+.chat-box.closed {
+    display: none;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    margin-right: 5px;
+  }
+
+.chat-hheader {
+    background-color: white;
+    /* padding: 10px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow-y: auto;
+    overflow-x: none;
+    scrollbar-width: inherit;
+    scrollbar-color: #888888 #f0f0f0;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    max-height: 400px;
+    max-width: 800px;
+  }
+
+
+
+.card-chat-container {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x:none;
+}
+
+.chat-option {
+    bottom: 0px;
+    right: 70px;
+    width: 270px;
+    height: 35px;
+    background-color: blueviolet;
+    /* border-radius: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+.chat-details {
+    /* background-color: #f0f0f0; */
+    /* border-top: 1px solid #ccc; */
+    /* border-bottom: 1px solid #ccc; */
+    /* padding: 10px; */
+    /* margin-bottom: 10px; */
+    /* width: 700px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 1px; */
+    overflow-x:none;
+    overflow-y:none; 
+}
+
+.chat-profile {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    /* margin: 10px; */
+}
+
+.text-chat {
+    /* margin-top: 15px; */
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.grey {
+    background-color: grey;
+  }
+
+.chat-cont-open{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.chat-cont-open div{
+    margin: 2px;
+}
